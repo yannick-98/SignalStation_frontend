@@ -1,0 +1,79 @@
+body {
+    background-image: url(./src/img/bg1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    max-width: 100vw;
+    font-family: 'krona one', sans-serif;
+}
+
+#nav1 {
+    animation: fromUp 1s ease-in-out;
+    -webkit-animation: fromUp 1s ease-in-out;
+}
+
+#text1 {
+    animation: fromUp 2s ease-in-out;
+    -webkit-animation: fromUp 2s ease-in-out;
+} 
+
+#text2 {
+    animation: fromUp 3s ease-in-out;
+    -webkit-animation: fromUp 3s ease-in-out;
+}
+
+#content1 {
+    animation: fromUp 4s ease-in-out;
+    -webkit-animation: fromUp 4s ease-in-out;
+}
+
+#content2 {
+    animation: fromUp 5s ease-in-out;
+    -webkit-animation: fromUp 5s ease-in-out;
+}   
+
+#content3 {
+    animation: fromUp 5s ease-in-out;
+    -webkit-animation: fromUp 5s ease-in-out;
+}
+
+#content4 {
+    animation: fromUp 5s ease-in-out;
+    -webkit-animation: fromUp 5s ease-in-out;
+}
+
+
+#poster:hover {
+    scale: 1.05;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1);
+    transition: 0.5s;
+    transform: perspective(1000px) rotateY(15deg) translateX(20px);
+    -webkit-transform: perspective(1000px) rotateY(15deg) translateX(20px);
+    -moz-transform: perspective(1000px) rotateY(15deg) translateX(20px);
+    -ms-transform: perspective(1000px) rotateY(15deg) translateX(20px);
+    -o-transform: perspective(1000px) rotateY(15deg) translateX(20px);
+}
+
+.big:hover {
+    scale: 1.1;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1);
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+@keyframes fromUp {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      -moz-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      -o-transform: translateY(-20px);
+}
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+}
+  }
